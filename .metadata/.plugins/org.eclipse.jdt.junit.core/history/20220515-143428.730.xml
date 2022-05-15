@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testRunner" project="TrusTraceCucumber" tests="4" started="4" failures="0" errors="1" ignored="0">
+  <testsuite name="testRunner.testRunner" time="96.104">
+    <testsuite name="TrusTrace QA coding assesment." time="96.104">
+      <testcase name="Add the product and checkout #1" classname="TrusTrace QA coding assesment." time="20.842"/>
+      <testcase name="Add the product and checkout #2" classname="TrusTrace QA coding assesment." time="22.031"/>
+      <testcase name="Add the product and checkout #3" classname="TrusTrace QA coding assesment." time="47.835"/>
+      <testcase name="Check the API in Post method" classname="TrusTrace QA coding assesment." time="5.396">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at StepDefinition.TrusTraceTestcaseSteps.response_body(TrusTraceTestcaseSteps.java:108)&#13;
+	at ✽.contains the message(file:///G:/TrusTrace/TrusTraceCucumber/src/test/resources/Features/TrusTraceTestcases.feature:24)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

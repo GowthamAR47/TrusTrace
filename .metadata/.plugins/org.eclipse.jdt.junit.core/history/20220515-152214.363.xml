@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testRunner" project="TrusTraceCucumber" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="testRunner.testRunner" time="8.265">
+    <testsuite name="TrusTrace QA coding assesment." time="8.265">
+      <testcase name="Check the API in Post method #1" classname="TrusTrace QA coding assesment." time="4.738"/>
+      <testcase name="Check the API in Post method #2" classname="TrusTrace QA coding assesment." time="1.889"/>
+      <testcase name="Check the API in Post method #3" classname="TrusTrace QA coding assesment." time="1.638"/>
+    </testsuite>
+  </testsuite>
+</testrun>

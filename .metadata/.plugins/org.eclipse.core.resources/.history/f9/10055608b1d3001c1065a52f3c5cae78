@@ -1,0 +1,14 @@
+Feature: TrusTrace QA coding assesment.
+  I want to use this template for my feature file
+
+  Scenario Outline: Add the product and checkout
+    
+    Given user launch the <url> in desired <browser>
+    And user login with <username> and <password>
+    When user add the product to cart
+    And user provides the <firstname>,<lastname>,<zip> and checkout
+    Then user should verify the success message
+
+    Examples: 
+      |url                      |browser|username     |password    |firstname|lastname|zip   |
+      |https://www.saucedemo.com|chrome |standard_user|secret_sauce|Gowtham  |A R     |642001|

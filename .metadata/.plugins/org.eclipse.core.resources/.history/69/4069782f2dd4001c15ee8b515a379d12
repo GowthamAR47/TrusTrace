@@ -1,0 +1,13 @@
+Feature: TrusTrace QA coding assesment for API.
+
+      
+  Scenario Outline: Check the API in Post method
+  
+  	Given post the API <url>
+  	When provide the <title>,<body>,<userid>
+  	Then check the status code <statuscode>
+  	And contains the message
+  	
+  	Examples:
+  	|url|title|body|userid|statuscode|
+  	|utlll|tips|bips|mine|utrds|rtil|

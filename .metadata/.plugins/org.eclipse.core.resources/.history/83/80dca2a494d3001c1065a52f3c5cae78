@@ -1,0 +1,42 @@
+package StepDefinition;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class TrusTraceTestcaseSteps {
+	@Given("^user launch the (.*) in desired (.*)$")
+	public void lauch_browser(String url,String browser) {
+	    System.getProperty("webdriver.chrome.driver","G:/TrusTrace/TrusTraceCucumber/src/test/resources/drivers/chromedriver.exe");
+	    WebDriver driver = new ChromeDriver();
+	    driver.get(url);
+	}
+
+	@And("^user login with (.*) and (.*)$")
+	public void user_login_with_standard_user_and_secret_sauce() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("^user add the product to cart$")
+	public void user_add_the_product_to_cart() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@And("^user provides the (.*),(.*),(.*) and checkout$")
+	public void user_provides_the_gowtham_a_r_and_checkout(Integer int1) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("^user should verify the success message$")
+	public void user_should_verify_the_success_message() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+}

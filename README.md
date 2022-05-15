@@ -1,2 +1,0 @@
-# TrusTrace
-QA assesment

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="testRunner" project="TrusTraceCucumber" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="testRunner.testRunner" time="4.126">
+    <testsuite name="TrusTrace QA coding assesment." time="4.126">
+      <testcase name="Check the API in Post method" classname="TrusTrace QA coding assesment." time="4.126">
+        <failure>java.lang.AssertionError: expected: java.lang.String&lt;1&gt; but was: java.lang.Integer&lt;1&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:89)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:835)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:120)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:146)&#13;
+	at StepDefinition.TrusTraceTestcaseSteps.response_body(TrusTraceTestcaseSteps.java:111)&#13;
+	at ✽.contains the response with foo,boo,1(file:///G:/TrusTrace/TrusTraceCucumber/src/test/resources/Features/TrusTraceTestcases.feature:24)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
